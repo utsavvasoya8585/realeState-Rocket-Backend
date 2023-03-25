@@ -9,6 +9,7 @@ const bodyParser = require("body-parser");
 app.use(
   cors({
     credentials: true,
+    // origin: "http://localhost:3000",
     origin: "https://main.d24rzhsjnmveux.amplifyapp.com",
   })
 );
