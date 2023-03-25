@@ -1,9 +1,17 @@
 const express = require("express");
+const cors = require("cors");
 const dotenv = require("dotenv");
 const color = require("colors");
 const app = express();
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
+
+app.use(
+  cors({
+    credentials: true,
+    origin: "https://main.d24rzhsjnmveux.amplifyapp.com",
+  })
+);
 
 //Dotenv Connect
 dotenv.config();
