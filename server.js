@@ -144,7 +144,7 @@ app.post("/api/v1/home-repair-evolution", async (req, res) => {
     {
       from: "utsavvasoya99@gmail.com", // Add Mail Hear
       to: "utsavvasoya99@gmail.com", // Add Mail Hear
-      subject: "Home REpair Evoluton", // Subject line
+      subject: "Home Repair Evolution", // Subject line
 
       text: `Name: ${req.body.name} email:${req.body.email} Phone Number: ${req.body.phoneNumber} messaage: ${req.body.message}`, // plain text body
 
